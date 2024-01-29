@@ -1,0 +1,163 @@
+.side-navbar {
+    width: 300px;
+    background-color: white;
+    left: -300px;
+    height: 100vh;
+    z-index: 999;
+  }
+  
+  .nodec{
+   text-decoration: none;
+  }
+
+  .dd{
+    display:none;
+  }
+  .dd2{
+    display:none;
+  }
+  .dd3{
+    display:none;
+  }
+  .dd4{
+    display:none;
+  }
+  .dd6{
+    display:none;
+  }
+  .navbtn{
+   padding: 20px; 
+   padding-top: 80px;
+   font-size: large;
+  }
+  .whitebar {
+    width: 90px;
+    color: black;
+    background-color: #ccc;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top: 0;
+  }
+  .search {
+    min-width: 400px !important;
+    position: fixed;
+    display: none;
+    z-index: 9999;
+  }
+  .box-itself{
+       border: 1px solid #ccc;
+       background-color: transparent;
+  ;
+  }
+  .bebe input::placeholder {
+    color: white;
+  }
+  .picz{
+    width: 100%;
+  }
+  
+  #area i {
+    font-size: 60px;
+    color: white;
+  }
+  /* ///////////////////loading screen ////////////////////// */
+  .loading {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    z-index: 999999;
+  }
+  
+  .loading:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #3498db;
+    border-top: 6px solid transparent;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: 0.5s;
+  }
+  
+  .category-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: 0.5s;
+  }
+  
+  .category:hover .category-layer {
+    top: 0%;
+    transition: 0.5s;
+  }
+  
+  .meal:hover .meal-layer {
+    top: 0%;
+    transition: 0.5s;
+  }
+  
+  .recipes > div  { 
+    /*  7araket el ">" de 3alashan kol wa7da border lwa7daha  */
+
+    text-align: center; 
+    border: 1px solid #b3b3b3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    /* margin: 0 10px 10px 0; */
+  
+  }
+  
+  /* ///////////////////////////////////////////////////// */
+  
